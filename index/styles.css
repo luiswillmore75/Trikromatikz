@@ -49,26 +49,26 @@ table {
 /*
 Trikromatikz Style Sheet
 */
+.wrapper{
+	width: 960px;
+  height: 84px;
+  margin: 0px auto;
+}
 body{
   background-color: #919866;
 }
-a {
-  color: black;
-  text-decoration: none;
+header{
+	width:100%;
+	height: 100px;
 }
-.index-top {
-  background-color: white;
-  width: 960px;
-  height: 82px;
-  margin: 0 auto;
-}
-.index-top img{
-  margin-top: 1px;
+header img{
+	margin-top: 7px;
   width: 80px;
-  height: 80px;
-  float: left;
+  height: 70px;
+	padding-left: 10px;
+	float: left;
 }
-.index-top h3{
+header h3{
   font-family: 'Indie Flower', cursive;
   font-weight: 600;
   font-size: 32px;
@@ -76,65 +76,93 @@ a {
   margin-top: 34px;
   float: left;
 }
-.index-top nav{
+header nav{
   float: right;
   margin-top: 40px;
   margin-right: 20px;
 }
-.index-top nav ul{
-
+header nav ul{
+	height: 20px;
 }
-.index-top nav ul li{
+header nav ul li{
   display: inline-block;
   margin-left: 20px;
 }
-.index-top nav ul li a{
+header nav ul li a{
   font-family: 'Indie Flower', cursive;
   font-weight: 500;
   color: black;
+	transition: all 1s ease-in-out;
+	text-decoration: none;
 }
-.index-right p{
-  line-height: 20px;
+header nav ul li:hover a{
+	color: #22d434;
+	font-size: 24px;
+	text-shadow: -10px 12px black;
 }
-/* Top Info*/
-.inbox{
-	width: 960px;
-	height: 82px;
-	margin: 0 auto;
+/* Section Code*/
+section{
+	width:100%;
+	margin-top: 2%;
+	margin-bottom: 1%;
 }
-.inbox1 h{
+section img{
+	margin: 0px auto;
+	outline: 6px solid #919866;
+	outline-offset: -10px;
+	display: inline-block;
+}
+.img-box{
+	width: 120%;
+	height: 672px;
+	display: inline-block;
+}
+.inbox h2{
 	text-align: center;
 	float: left;
-}
-.inbox1 span{
-	font-family: helvetica, arial,sans-serif;
 	font: 34px;
-	background-color: #89D71D;
+	font-size: 22px;
+	font-family: 'Caveat Brush', cursive;
+	padding: 20px 10px;
+	text-transform: uppercase;
+	text-shadow: -10px 6px #6B6B6B;
 	color: white;
-	margin: 0px 0px;
-	padding: 0px 0px;
+	width: 20%;
+	margin: 0px 1%;
 }
-.inbox2 h{
-	text-align: center;
-	float: left;
-}
-.inbox2 span{
-	font-family: helvetica, arial,sans-serif;
-	font: 14px;
-	background-color: #4BC5B7;
+/* Footer Code*/
+footer{
+	width: 100%;
 	color: #75F127;
-	margin: 0px 0px;
-	padding: 0px 0px;
+	background-color: #222;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 300;
 }
-.inbox3 h{
-	text-align: center;
-	float: left;
+footer nav{
+  float: right;
+  margin-right: 20px;
+	margin-top: 37px;
 }
-.inbox3 span{
-	font-family: helvetica, arial,sans-serif;
-	font: 34px;
-	background-color: #1D66D7;
-	color: white;
-	margin: 0px 0px;
-	padding: 0px 0px;
+footer nav ul{
+	height: 5px;
+}
+footer nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+footer nav ul li a{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 500;
+	font-size: 16px;
+  color: #75F127;
+	transition: all 1s ease-in-out;
+	text-decoration: none;
+}
+footer nav ul li:hover a{
+	color: #22d434;
+	font-size: 24px;
+	text-shadow: -10px 12px yellow;
+}
+footer p{
+	font-size: 18px;
 }
