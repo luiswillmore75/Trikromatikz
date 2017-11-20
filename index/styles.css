@@ -122,7 +122,7 @@ body {
 padding-bottom: 20px;
 }
 .content img{
-  margin: 40px auto;
+  margin: 22px auto;
 	width: 582px;
 	height: 672px;
   outline: 6px solid #919866;
@@ -141,7 +141,7 @@ padding-bottom: 20px;
 	text-shadow: -10px 6px #6B6B6B;
 	color: white;
 	width: auto;
-	margin: 40px 1%;
+	margin: 20px 1%;
   text-decoration-color: none;
 }
 .aboutus{
@@ -162,7 +162,7 @@ padding-bottom: 20px;
 .footer nav{
   float: right;
   margin-right: 20px;
-	margin-top: 37px;
+	margin-top: 38px;
 }
 .footer nav ul{
 	height: 5px;
